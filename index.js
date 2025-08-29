@@ -74,8 +74,8 @@ app.post('/bfhl', (req, res) => {
         const concatString = createAlternatingCaps(alphabets);
         const response = {
             is_success: true,
-            user_id: "DeepanshSingh", 
-            email: "deepansh.singh@vitstudent.ac.in", 
+            user_id: "deepansh_singh_22122003", 
+            email: "deepansh.singh2022@vitstudent.ac.in", 
             roll_number: "22BBS0156", 
             odd_numbers: oddNumbers,
             even_numbers: evenNumbers,
@@ -99,4 +99,5 @@ app.post('/bfhl', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
 module.exports = app;
